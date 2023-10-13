@@ -7,7 +7,7 @@ public class GUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setTitle("MineSweeper");
-        setLocation(500, 200);
+        setLocation(500, 100);
         setLayout(null);
         paneL.setBounds(2,100,600,480);
         //setBounds(2,2,600,40)
