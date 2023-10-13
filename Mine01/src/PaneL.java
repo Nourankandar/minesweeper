@@ -3,8 +3,8 @@ import java.awt.*;
 
 public class PaneL extends JPanel {
     public void panel1(JPanel p1){
-        p1.setLayout(null);
-        p1.setBounds(2,2,600,40);
+        p1.setLayout(new GridLayout());
+        p1.setBounds(2,2,600,38);
         p1.setBackground(new Color(0x7C8882));
 
         JMenuBar bar =new JMenuBar();
@@ -32,7 +32,7 @@ public class PaneL extends JPanel {
 
     public void panel2(JPanel p2){
         p2.setLayout(null);
-        p2.setBounds(2,42,600,98);
+        p2.setBounds(2,42,600,55);
         p2.setBackground(new Color(0xB27EFF));
     }
     Button button[][]= new Button[20][20];
