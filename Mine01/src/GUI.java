@@ -2,6 +2,9 @@ import javax.swing.*;
 
 public class GUI extends JFrame {
     PaneL paneL = new PaneL();
+    PaneL paneL1 = new PaneL();
+    PaneL paneL2 = new PaneL();
+
     public GUI(){
         setSize(618,620);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -14,7 +17,10 @@ public class GUI extends JFrame {
         //setBounds(2,42,600,98)
 
         paneL.panel3();
-        add(paneL);
+        paneL1.panel1(paneL1);
+        paneL2.panel2(paneL2);
+
+       add(paneL1);add(paneL2); add(paneL);
 
         setVisible(true);
 
